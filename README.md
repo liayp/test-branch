@@ -1,9 +1,3 @@
-Tentu. Anda benar, dokumentasi yang baik harus menjelaskan "kenapa" dan "apa dampaknya" agar tim bisa bekerja dengan percaya diri.
-
-Berikut adalah versi dokumentasi yang lebih rinci, fokus menjelaskan dampak implementasi Spatie pada database dan alur logika aplikasi Anda.
-
------
-
 ### **Dokumentasi Arsitektur & SOP: Sistem Hak Akses Dinamis (RBAC)**
 
 **Tujuan:** Dokumen ini menjelaskan arsitektur, dampak perubahan, dan prosedur operasi standar untuk sistem *Role-Based Access Control* (RBAC) yang baru diimplementasikan dalam proyek ini.
