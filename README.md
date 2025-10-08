@@ -1,10 +1,10 @@
-### \#\#\# **Dokumentasi & SOP: Sistem Hak Akses Dinamis**
+### **Dokumentasi & SOP: Sistem Hak Akses Dinamis (RBAC)**
 
 **Tujuan:** Dokumen ini menjelaskan implementasi dan prosedur standar untuk sistem *Role-Based Access Control* (RBAC) pada proyek ini.
 
 -----
 
-### \#\# 1. Konsep & Arsitektur
+### **1. Konsep & Arsitektur**
 
 Sistem ini menggunakan package `spatie/laravel-permission` untuk mengelola hak akses secara terpusat dari database.
 
@@ -21,7 +21,7 @@ Sistem ini menggunakan package `spatie/laravel-permission` untuk mengelola hak a
 
 -----
 
-### \#\# 2. Prosedur Operasi Standar (SOP)
+### **2. Prosedur Operasi Standar (SOP)**
 
 Ikuti alur kerja ini untuk tugas-tugas pengembangan umum.
 
@@ -56,7 +56,9 @@ Lakukan 6 langkah ini secara berurutan:
 
 -----
 
-### \#\# 3. Perintah Penting (Cheat Sheet)
+### **3. Perintah Penting (Cheat Sheet)**
+
+Gunakan perintah ini untuk pemeliharaan sistem.
 
 | Perintah | Fungsi |
 | :--- | :--- |
@@ -67,7 +69,7 @@ Lakukan 6 langkah ini secara berurutan:
 
 -----
 
-### \#\# 4. Troubleshooting Umum
+### **4. Troubleshooting Umum**
 
 **Masalah:** Muncul grup izin duplikat di halaman "Atur Izin" (misalnya `produk-lama` dan `produk_baru`) setelah mengubah nama *route*. Ini terjadi karena izin lama yang tidak terpakai tidak terhapus secara otomatis.
 
